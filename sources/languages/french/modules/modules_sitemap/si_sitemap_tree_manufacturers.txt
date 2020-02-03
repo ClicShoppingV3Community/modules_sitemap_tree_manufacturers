@@ -1,0 +1,7 @@
+
+modules_sitemap_tree_manufacturers_title = Souhaitez-vous afficher l'arborescence de la cartographie du site ?
+modules_sitemap_tree_manufacturers_description = Ajouter une aborescence du site
+
+modules_sitemap_tree_manufacturers_title_heading = No modèles
+modules_sitemap_tree_manufacturers_header_title_top = Accueil
+
