@@ -31,6 +31,7 @@ Implementation:
 - Go to Miscelleanous / sitemap
 - Go to Communication / Page manager 
 - If it not make
+
 - create a new page and use external link with this url element : index.php?Info&SiteMap
 
 - Copy the modules_sitemap_tree_manufacturers.json into ClicShopping/Work/Cache/Github (manual installation)
@@ -44,4 +45,4 @@ Official add on : https://github.com/ClicShoppingOfficialModulesV3
 Community add on : https://github.com/ClicShoppingV3Community
 trademark License info : https://www.clicshopping.org/forum/trademark/ 
 
-![image](https://github.com/ClicShoppingOfficialModulesV3/modules_sitemap_tree_manufacturers/blob/master/ModuleInfosJson/image.png)
+![image](https://github.com/ClicShoppingV3Community/modules_sitemap_tree_manufacturers/blob/master/ModuleInfosJson/image.png)
