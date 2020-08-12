@@ -28,7 +28,7 @@
       $this->title = CLICSHOPPING::getDef('modules_sitemap_tree_manufacturers_title');
       $this->description = CLICSHOPPING::getDef('modules_sitemap_tree_manufacturers_description');
 
-      if ( defined('MODULES_SITEMAP_TREE_MANUFACTURERS_STATUS') ) {
+      if (defined('MODULES_SITEMAP_TREE_MANUFACTURERS_STATUS')) {
         $this->sort_order = MODULES_SITEMAP_TREE_MANUFACTURERS_SORT_ORDER;
         $this->enabled = (MODULES_SITEMAP_TREE_MANUFACTURERS_STATUS == 'True');
       }
