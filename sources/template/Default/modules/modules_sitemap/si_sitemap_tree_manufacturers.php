@@ -117,11 +117,11 @@
       $CLICSHOPPING_Db->save('configuration', [
           'configuration_title' => 'Where you want to display the sitemap ?',
           'configuration_key' => 'MODULES_SITEMAP_TREE_MANUFACTURERS_POSITION',
-          'configuration_value' => 'float-md-none',
+          'configuration_value' => 'float-none',
           'configuration_description' => 'Select where do you want to display the sitemap',
           'configuration_group_id' => '6',
           'sort_order' => '1',
-          'set_function' => 'clic_cfg_set_boolean_value(array(\'float-md-left\', \'float-md-right\', \'float-md-none\'))',
+          'set_function' => 'clic_cfg_set_boolean_value(array(\'float-start\', \'float-end\', \'float-none\'))',
           'date_added' => 'now()'
         ]
       );
