@@ -14,8 +14,8 @@
   use ClicShopping\OM\HTML;
 
   class si_sitemap_tree_manufacturers {
-    public $code;
-    public $group;
+    public string $code;
+    public string $group;
     public string $title;
     public string $description;
     public ?int $sort_order = 0;
@@ -28,7 +28,7 @@
       $this->title = CLICSHOPPING::getDef('modules_sitemap_tree_manufacturers_title');
       $this->description = CLICSHOPPING::getDef('modules_sitemap_tree_manufacturers_description');
 
-      if (defined('MODULES_SITEMAP_TREE_MANUFACTURERS_STATUS')) {
+      if (\defined('MODULES_SITEMAP_TREE_MANUFACTURERS_STATUS')) {
         $this->sort_order = MODULES_SITEMAP_TREE_MANUFACTURERS_SORT_ORDER;
         $this->enabled = (MODULES_SITEMAP_TREE_MANUFACTURERS_STATUS == 'True');
       }
@@ -58,7 +58,7 @@
 
         $sitemap_tree .= '<ul class="list-group list-group-SitemapTreeManufacturers">';
 
-        if (is_array($manufactuer_array)) {
+        if (\is_array($manufactuer_array)) {
           foreach ($manufactuer_array as $item) {
             $manufacturer_url = $CLICSHOPPING_Manufacturers->getManufacturerUrlRewrited()->getManufacturerUrl($item['id']);
             $manufacturer_name = HTML::link($manufacturer_url,  $item['name']);
@@ -84,7 +84,7 @@
     }
 
     public function check() {
-      return defined('MODULES_SITEMAP_TREE_MANUFACTURERS_STATUS');
+      return \defined('MODULES_SITEMAP_TREE_MANUFACTURERS_STATUS');
     }
 
     public function install() {
