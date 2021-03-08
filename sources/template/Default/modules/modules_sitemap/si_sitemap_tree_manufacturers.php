@@ -54,7 +54,7 @@
         $sitemap_tree .= '<div class="sitemapCategoryTreeTittleManufacturers"><h3>' . CLICSHOPPING::getDef('modules_sitemap_tree_manufacturers_title_heading') . '</3></div>';
         $sitemap_tree .= '<div class="SitemapCategoryTreeBlockManufacturers">';
         $sitemap_tree .= '<div class="SitemapCategoryTreeManufacturers">';
-        $sitemap_tree .= '<i class="fas fa-home fa-2x"></i>&nbsp;' . HTML::link(CLICSHOPPING::link(), CLICSHOPPING::getDef('modules_sitemap_tree_manufacturers_header_title_top'));
+        $sitemap_tree .= '<i class="bi bi-house-fill"></i>&nbsp;' . HTML::link(CLICSHOPPING::link(), CLICSHOPPING::getDef('modules_sitemap_tree_manufacturers_header_title_top'));
 
         $sitemap_tree .= '<ul class="list-group list-group-SitemapTreeManufacturers">';
 

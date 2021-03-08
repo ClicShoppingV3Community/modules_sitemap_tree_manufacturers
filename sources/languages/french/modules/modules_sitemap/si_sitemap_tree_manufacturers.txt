@@ -2,6 +2,6 @@
 modules_sitemap_tree_manufacturers_title = Souhaitez-vous afficher un sitemap fabricants ?
 modules_sitemap_tree_manufacturers_description = Ajouter un sitemap fabricants
 
-modules_sitemap_tree_manufacturers_title_heading = No marques
+modules_sitemap_tree_manufacturers_title_heading = Nos marques
 modules_sitemap_tree_manufacturers_header_title_top = Accueil
 

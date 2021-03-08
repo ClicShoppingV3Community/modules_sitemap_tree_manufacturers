@@ -32,7 +32,6 @@ div.SitemapCategoryTreeManufacturers A {
 /*
 .categoryTree a:hover{
 	font-weight:bold;
-	font-size: 0.625rem;
   text-transform: underline;  
 }
 */
@@ -68,4 +67,3 @@ li.list-group-itemSitemapTreeManufacturers {
     padding-bottom: 1px;
     padding-left: 0.3125rem;
 }
-
